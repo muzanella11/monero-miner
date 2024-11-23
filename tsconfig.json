@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "outDir": "dist",
+    "sourceMap": true,
+    "strict": true,
+    "esModuleInterop": true,
+    // add moduleResolution and skipLibCheck to suppress ts build errors
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "target": "es2017",
+  },
+  "compileOnSave": true,
+  "include": [
+    "src",
+    "src/types/**/*.d.ts"
+  ]
+}

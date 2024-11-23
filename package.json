@@ -1,0 +1,29 @@
+{
+  "name": "monero-miner",
+  "version": "0.0.1",
+  "scripts": {
+    "lint": "eslint \"src/**/*.{js,ts}\" --fix",
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "start": "node dist/index.js"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.15.0",
+    "@types/node": "^22.9.3",
+    "@types/ws": "^8.5.13",
+    "@typescript-eslint/eslint-plugin": "^8.15.0",
+    "@typescript-eslint/parser": "^8.15.0",
+    "@typescript-eslint/typescript-estree": "^8.15.0",
+    "eslint": "^9.15.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "globals": "^15.12.0",
+    "nodemon": "^3.1.7",
+    "prettier": "^3.3.3",
+    "typescript": "5.6.2",
+    "typescript-eslint": "^8.15.0"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
